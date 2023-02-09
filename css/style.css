@@ -1,0 +1,30 @@
+body{
+  font-family: 'Montserrat';  
+  text-align: center;
+  background-color: #ffffD2;
+}
+
+h1,h2,h3,h4,h5,h6 { 
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+.big-heading{
+  font-size: 3.5rem;  
+  line-height: 1.5; 
+  text-align: center; 
+  padding-top: 15%;
+}
+
+.title-image{
+  width: 90%;
+  border-radius: 100%;
+  opacity: 80%;
+}
+
+.navtext:hover{
+  font-weight: bold;
+  color: #aa96da;
+}
+
+
