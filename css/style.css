@@ -27,4 +27,27 @@ h1,h2,h3,h4,h5,h6 {
   color: #aa96da;
 }
 
+.input-group-text{
+  background-color: #b6a1e9;
+}
+
+.form-control,.form-select{
+  background-color: #ece9f3;
+  
+}
+
+.sign-button{
+  margin: 20px 10px 70px 10px;
+  background-color: #aa96da;
+  border: none;
+
+}
+
+.sign-button:hover{
+  margin: 20px 10px 70px 10px;
+  background-color: #ece9f3;
+  border: #aa96da;
+  color:#aa96da
+
+}
 
