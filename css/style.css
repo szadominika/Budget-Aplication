@@ -51,3 +51,49 @@ h1,h2,h3,h4,h5,h6 {
 
 }
 
+th {
+  text-align: left;
+  overflow: hidden;
+  overflow-wrap: normal;
+  border-bottom: 1px solid #b3b3b3;
+}
+
+td {
+  text-align: left;
+  font-size: 0.85em;
+  border-right: 1px solid #b3b3b3;
+}
+
+tr {
+  display: none;
+}
+
+tr.header {
+  display: table-row;
+  cursor: pointer;
+}
+
+tr.summary > td {
+  font-size: 0.95em;
+  font-weight: 700;
+  border: none;
+}
+
+.amount,
+td.sum {
+  text-align: right;
+}
+
+tr:last-child {
+  color: #aa96da;
+  display: table-row !important;
+}
+
+.dropdown-toggle{
+  border: none;
+}
+#footer{
+  font-size: 0.8rem;
+  color: #363636;
+}
+
