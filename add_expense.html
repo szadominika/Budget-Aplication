@@ -57,12 +57,12 @@
          <form action="#">
           <div class="input-group m-3">
             <span class="input-group-text">Amount</span>
-              <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)">
+              <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)" min="0.01" step="0.01">
           </div> 
 
           <div class="input-group m-3 ">
             <span class="input-group-text">Date</span>
-              <input id="startDate" class="form-control" type="date" >
+              <input id="startDate" class="form-control" type="date" value="2023-01-01" min="2023-01-01" max="2040-01-01">
           </div>
 
           <div class="input-group m-3">
@@ -96,11 +96,11 @@
           </div>
           
           <button class="btn btn-dark btn-md sign-button" type="submit">
-            <i class="fa-solid fa-circle-plus"></i> Add expense
+            <i class="fa-solid fa-circle-plus p-1"></i> Add expense
           </button>
         
           <button class="btn btn-dark btn-md sign-button" type="submit">
-            <i class="fa-solid fa-trash"></i>Cancel
+            <i class="fa-solid fa-rectangle-xmark p-1"></i>Cancel
           </button>
 
          </form>
