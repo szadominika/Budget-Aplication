@@ -92,8 +92,43 @@ tr:last-child {
 .dropdown-toggle{
   border: none;
 }
+
+.dropdown{
+  position: relative;
+  left: 40%;
+  margin: 2% 0%;
+}
+
+.dropdown-button{
+  background-color: #aa96da;
+  text-align: right;
+
+}
+
+.dropdown-button:hover {
+  background-color: #ece9f3;
+  color:#aa96da
+}
+
+.dropdown-button:focus {
+  background-color: #ece9f3;
+  color:#aa96da
+}
+
+.dropdown-menu{
+  background-color: #aa96da;
+}
+
 #footer{
   font-size: 0.8rem;
   color: #363636;
 }
 
+
+@media(max-width: 767px){
+
+  .dropdown{
+  position: static;
+  }
+
+}
